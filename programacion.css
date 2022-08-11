@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+  
+.rec {
+	width: 10px;
+	height: 2000px;
+}
+
+body{
+		background: white;
+}
+nav{
+	background: #fff;
+	width: 100%;
+	
+	
+}
+
+nav ul{
+	list-style: none;
+	display:flex;
+	justify-content: space-around;
+
+}
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+	 
+}
+
+nav ul li {
+	padding: 0px 7%;
+
+}
+
+.menu > li > a{
+
+	
+	display: block;
+	padding: 20.7px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+	
+}
+
+.submenu {
+	z-index: 1;
+	position: absolute;
+	background: #fff;
+	width: 94%;
+	display:block;
+	
+	opacity: 0;
+	transition:opacity 1s;
+	margin: 0;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #333333;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.navegacion li ul li {
+	position: relative;
+}
+.navegacion li ul li ul {
+	right: -240px;
+	top: 0px;
+}
+
+/*-------------------------Escudo tecnica-------------------*/
+
+.escudotec img {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+
+}
+
+.prog {
+	filter: blur(3px);
+}
+
+.escudotec2 img {
+	position: relative;
+	height: 150px;
+	width: 150px;
+}
+
+.escudotec2 {
+	text-align: center;
+}
+
+.tec7{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	bottom: 25rem;
+	font-family:'Trirong', serif;
+	color: white;
+	letter-spacing: 4px;
+	font-weight: 100;
+	font-size: 50px;
+	padding: 50px 0;
+}
+
+
+h1 {
+	display: block;
+	padding: 15px;
+	font-family:oswald-medium, oswald,sans-serif;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+
+}
+
+.flecha  {
+	position: relative;
+	margin: 0 47%;
+	width:50px;
+	height: 50px;
+	bottom: 260px;
+	filter: opacity(0.5) drop-shadow(0 0 0 white);
+
+}
+
+.container{
+	margin-top:-140px;
+	margin-bottom:70px;
+}
+
+h2{
+	text-align: center;
+	margin-top:70px;
+}
+
+
+.rec2 {
+	
+	width: 100%;
+	height: 380px;
+	background: #4c4d5c;
+
+}
+
+.espacio {
+	padding-top: 100px;
+}
+
+
+
+
+.invisible{
+	position:relative;
+	z-index:1;
+	height:70px;
+	width:100%;
+	bottom:-50px;
+
+}
+
+
+.menu69{
+	font-size: 40px;
+	text-decoration: overline;
+}
+.menu68{
+	font-size: 40px;
+	text-decoration: overline;
+}
+
+.minimenu{
+
+	float: right;
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 80px;
+	font-size: 20px;
+	
+
+}
+.minimenu2{
+
+	list-style: none;
+}
+
+.minimenu2 li {
+	padding-bottom: 10px;
+
+}
+.minimenu2 li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.minimenu2 li:hover {
+	color: #CE7D35;
+	transition: all .3s;	
+}
+
+.minimenu2 li a:hover {
+	color: #CE7D35;
+	transition: all .3s;	
+}
+
+.iconoslocos {
+	padding-left: 20px;
+}
+
+input .boton {
+	font-family: 'Merriweather', serif;
+}
+
+.inputs{
+	
+	position: relative;
+	left: 100px;
+	width: 500px;
+}
+
+
+.inputs ul li {
+	list-style: none;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	padding-top: 20px;
+
+}
+
+.nombre {
+	position: relative;
+	
+}
+
+.inputs input{
+	width: 230px;
+	height: 20px;
+}
+
+.textarea{
+	width: 270px;
+	height: 60px;
+}
+
+.inputs .boton {
+	position: relative;
+	left: 100px;
+	width: 60px;
+	height: 30px;
+}
+.mmm{
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+	color: #b8b8b8;
+	left: 30px;
+}
+
+h2{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Noto Serif', serif;
+}
+
+.que{
+	font-size: 18px;
+	text-align: center;
+	width:70%;
+	margin-left: 15%;
+	font-family: 'Merriweather', serif;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.lista{
+	margin-left: 25%;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.lista li{
+	font-size: 20px;
+	padding-bottom: 10px;
+	width:75%;
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.tec7{
+	position: relative;
+	text-align: center;
+	bottom: 25rem;
+	font-family:'Trirong', serif;
+	color: white;
+	letter-spacing: 4px;
+	font-weight: 100;
+	font-size: 50px;
+	padding: 50px 0;
+}
+
+h1{
+	background-color:rgba(0,0,0,0.5);
+}
+
+/*------------------------------menu-----------------------------*/
+
+nav{
+	background: #FFF;
+	width: 100%;
+}
+
+nav ul{
+	list-style: none;
+	display:flex;
+	justify-content: space-around;
+}
+
+.menu li {
+	position: relative;
+	display: inline-block;	 
+}
+
+nav ul li {
+	padding: 0px 7%;
+}
+
+nav li ul li {
+	position: relative;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 20.7px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.submenu {
+	z-index: 1;
+	position: absolute;
+	background: #fff;
+	width: 94%;
+	opacity: 0;
+	transition:opacity 1s;
+	margin: 0px center;
+	display:block;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #333333;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+/*-------------------------Escudo tecnica-------------------*/
+
+.escudotec img {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.escudotec2 img {
+	position: relative;
+	height: 150px;
+	width: 150px;
+}
+
+.escudotec2 {
+	text-align: center;
+}
+
+/*-----------------------------Texto-----------------*/
+.section-container .indice1 p{
+	text-align: justify;
+}
+
+.indice1 p {
+	font-family:'Maven Pro';
+	text-align: justify;
+
+}
+
+h1 {
+	display: block;
+	padding: 15px;
+	font-family:fantasy;
+	text-decoration: none;
+}
+
+.quienesomos{
+	text-decoration: overline blink;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: 4px;
+	font-size: 40px;
+	
+}
+
+/*----------------------------------------textoaniamcion-------*/
+
+.section-container section{
+	align-items: center;
+}
+
+.section-container section h2 {
+	margin: 16px 0;
+}
+
+.section-container  p{
+		margin: auto;
+	width: 60%;
+	text-align: center;
+	
+}
+
+.rec2 {
+	width: 100%;
+	height: 380px;
+	background: #4c4d5c;
+}
+
+.texto{
+	font-size:23px;
+}
+
+.fotos{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 6rem;
+}
+.fotos a {
+	padding: 0 5rem;
+}
+
+.fotos img {
+	box-shadow: 0px 0px 4px 1px black;
+}
+
+.inputs{
+	position: relative;
+	left: 100px;
+	width: 500px;
+}
+
+
+.inputs ul li {
+	list-style: none;
+	padding-bottom: 5px;
+	margin-left: 20px;
+	padding-top: 20px;
+
+}
+
+.nombre {
+	position: relative;
+	
+}
+
+.inputs input{
+	width: 230px;
+	height: 20px;
+}
+
+.textarea{
+	width: 270px;
+	height: 60px;
+}
+
+.inputs .boton {
+	position: relative;
+	left: 100px;
+	width: 60px;
+	height: 30px;
+}
+
+.mmm{
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+	color: #b8b8b8;
+	left: 30px;
+}
